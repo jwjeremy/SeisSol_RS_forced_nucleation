@@ -24,6 +24,7 @@
 #include "CpuImpl/SourceTimeFunction.h"
 #include "CpuImpl/ThermalPressurization/NoTP.h"
 #include "CpuImpl/ThermalPressurization/ThermalPressurization.h"
+#include "CpuImpl/FastVelocityForcedNuc.h"
 
 #ifdef ACL_DEVICE
 #include "GpuImpl/AgingLaw.h"
